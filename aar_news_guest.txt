@@ -4,17 +4,21 @@ Non-classical logics constitute a huge collection of tools for representation an
 
 The development of non-classical logics is needed if we intend to deal with complex problems in a complex world. Although some logics are well understood, with well-established model and proof theories, it seems that there is still a lot to do with respect to the automation of the reasoning tasks for those logics. There are, of course, many different tools for many non-classical logics. Their existence, however, seems to rely on individual and continuous efforts of researchers and their groups whilst we can observe a more community-driven and systematic approach to the construction and maintenance of reasoners for classical logics: standards are in place (e.g., the TPTP languages), provers can talk to each other (with little effort), and those provers are under constant scrutiny of the community. This allows for both the easier adaptation and incorporation of implementation techniques and also fosters their correctness and reliability.
 
-The implementation of non-classical provers may require sophisticated techniques, not always adaptable from the classical approaches, in order to rightly and efficiently deal with the kind of reasoning that reflects their often complex semantical counterparts. Every different logic may require very different techniques, and there are too many of such logics. The effort employed to communicate proofs or other certificates between provers, even when considering closely related systems, is significant. 
+The implementation of non-classical provers may require sophisticated techniques, not always adaptable from the classical approaches, in order to rightly and efficiently deal with the kind of reasoning that reflects their often complex semantical counterparts. Every different logic may require very different techniques, and there are too many of such logics. 
 
-"Stepping into the dark side" may translate well the perception that this list of difficulties is an impediment to the development of reasoner tools for non-classical logics. As we argued in the topical session of which we had the honour to be invited to host at CADE-28, our vision is that their applicability should help us to surpass the existing problems and, actually, shed light into the challenges that we need to face to provide a good reasoning service for those intended applications. About 20 participants joined the topical session and discussed about major challenges and current obstacles, here is a brief summary of some of them:
+In the topical session we had the honour to be invite to host a CADE-28, these and many other problems were discussed. About 20 participants joined the session, raising challenges and obstacles in the field, including the following:
+
 
 - Empirical evaluation is difficult or impossible (either no competitors or few to none benchmarks)
 - Meaningful benchmarks are tricky and expensive to generate (partly hand-crafted from topical applications)
 - Artificially/automatically generated benchmarks seem not to be representative (yet this is often done)
 - There is a very large number of different logics (and it's constantly growing)
 - Very large inputs are often difficult to handle for reasoning systems
-- No common syntax, no simple exchange of information between systems
-  (this hampers inclusion of reasoning tools in the context of AI applications)
+- No common syntax, no simple exchange of information between systems (this hampers inclusion of reasoning tools in the context of AI applications)
+- The effort employed to communicate proofs or other certificates between provers, even when considering closely related systems, is significant. 
+
+
+"Stepping into the dark side" may translate well the perception that this list of difficulties is an impediment to the development of reasoner tools for non-classical logics. As we argued in the topical session, our vision is that their applicability should help us to surpass the existing problems and, actually, shed light into the challenges that we need to face to provide a good reasoning service for those intended applications.
 
 Community efforts could, e.g., include a logic independent central, open and free collection of benchmarks (not necessarily in the same format, but standards should arise on the long run) and to encourage domain experts to co-create benchmarks as service to the automated reasoning community. Currently, there seem to be more open questions than answers, but this also entails (at least in some non-classical formalisms) that there is vast potential. 
 
