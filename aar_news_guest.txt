@@ -34,8 +34,7 @@ rightly and efficiently deal with the kind of reasoning that reflects their
 often complex semantical counterparts. Every different logic may require very
 different techniques, and there are too many of such logics.
 
-These an many other problems were discussed In the topical session about non-classical logics that we had the honour to be invited to host a CADE-28. About 20 participants joined the
-session, raising challenges and obstacles in the field, including the following:
+These and many other problems were discussed in the topical session about non-classical logics that we had the honour to be invited to host at CADE-28. About 20 participants joined the session, raising challenges and obstacles in the field, including the following:
 
 
 - Empirical evaluation is difficult or impossible (either no competitors or few
